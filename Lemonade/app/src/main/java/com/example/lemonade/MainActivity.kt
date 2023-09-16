@@ -51,6 +51,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.example.lemonade.ui.theme.AppTheme
 
 class MainActivity : ComponentActivity() {
@@ -60,6 +62,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             AppTheme() {
                 LemonadeApp()
+                NameTextUser("Jhon Freddy Popo Moreno")
             }
         }
     }
@@ -196,3 +199,30 @@ fun LemonPreview() {
     }
 }
 
+
+@Composable
+fun NameTextUser(message: String, modifier: Modifier = Modifier) {
+    // Create a column so that texts don't overlap
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center,
+        modifier = modifier
+    ) {
+        Text(
+            text = message,
+            fontWeight = FontWeight.Bold,
+            fontSize = 20.sp,
+            modifier = Modifier
+                .padding(bottom = 150.dp)
+                .padding(top = 200.dp)
+                .align(alignment = Alignment.CenterHorizontally)
+
+        )
+    }
+}
+
+@Preview(showBackground = false)
+@Composable
+private fun NameTextUserPreview() {
+    NameTextUser("Jhon Freddy")
+}
