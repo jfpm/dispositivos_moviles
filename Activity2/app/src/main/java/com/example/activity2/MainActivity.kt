@@ -18,29 +18,51 @@ class MainActivity : ComponentActivity() {
         setContent {
             Activity2Theme {
                 // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    Greeting("Android")
+                Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
+                    //Greeting("Android")
+
+                    NotificationSummary() // Llama a la composable para mostrar el resumen
                 }
             }
         }
+
+
     }
-}
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
+    @Composable
+    fun Greeting(name: String, modifier: Modifier = Modifier) {
+        Text(
+            text = "Hello $name!",
+            modifier = modifier
+        )
+    }
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    Activity2Theme {
-        Greeting("Android")
+    @Composable
+    fun NotificationSummary() {
+        val morningNotification = 51
+        val eveningNotification = 135
+        printNotificationSummary(morningNotification)
+        printNotificationSummary(eveningNotification)
+    }
+
+    @Composable
+    fun printNotificationSummary(numberOfMessages: Int) {
+        val infov: String
+        if (numberOfMessages < 100) {
+             infov = "You have ${numberOfMessages} notifications."
+        } else {
+             infov = "Your phone is blowing up! You have 99+ notifications."
+        }
+        Text(
+            text = infov
+        )
+    }
+
+    @Preview(showBackground = true)
+    @Composable
+    fun GreetingPreview() {
+        Activity2Theme {
+            Greeting("Android")
+        }
     }
 }
