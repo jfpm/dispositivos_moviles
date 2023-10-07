@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Art Space</string>
+    <string name="data1_name">Son GOKU</string>}
+    <string name="data1_msg">Personaje anime</string>
+    <string name="data1_year">2023</string>
+    <string name="data2_name">CAMISETA</string>
+    <string name="data2_msg">Camise del equipo de papa</string>
+    <string name="data2_year">2023</string>
+    <string name="data3_name">SAN FERNANDO</string>
+    <string name="data3_year">Mejor estadio</string>
+    <string name="data3_msg">2023</string>
+    <string name="data4_name">ESCUDO</string>
+    <string name="data4_year">Mejor del continente</string>
+    <string name="data4_msg">2023</string>
+    <string name="data5_name">AGRADECIMIENTO</string>
+    <string name="data5_year">2023</string>
+    <string name="data5_msg">Capit de los mejores</string>
+    <string name="data6_name">GOKU</string>
+    <string name="data6_year">2023</string>
+    <string name="data6_msg">NEXT LEVEL</string>
+    <string name="data7_name">ESCUDO</string>
+    <string name="data7_year">2023</string>
+    <string name="data7_msg">SENCILLO</string>
+    <string name="data8_name">IDOLO</string>
+    <string name="data8_year">2023</string>
+    <string name="data8_msg">DE LOS MEJORES</string>
+    <string name="data9_name">ESTADIO</string>
+    <string name="data9_year">2023</string>
+    <string name="data9_msg">PASCUAL GUERRERO</string>
+    <string name="data10_name">BRS</string>}
+    <string name="data10_msg">ORGULLO ROJO VALLECAUCANO</string>
+    <string name="data10_year">2023</string>
+
+    <string name="next">Next</string>
+    <string name="previuos">Previuos</string>
+
+</resources>
+
