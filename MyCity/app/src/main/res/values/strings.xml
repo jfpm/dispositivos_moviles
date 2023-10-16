@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Jamundí</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="list_fragment_label">Jamundí</string>
+    <string name="detail_fragment_label">Jamundí Turismo</string>
+
+    <string name="ruta1">Charco del Duende</string>
+    <string name="ruta1msg">En medio del bosque lleno de misticismo, se encuentra ubicado el Charco del Duende</string>
+    <string name="ruta1sub">En medio del bosque lleno de misticismo, se encuentra ubicado el Charco del Duende, un espacio mágico por sus petroglifos delgénesis, unos de los más importantes y valiosos de latinoamérica. Sumérgete en las aguas cristalinas y disfruta del verde espeso del bosque que te conectará con tu interior.</string>
+
+    <string name="ruta2">Charco Azul</string>
+    <string name="ruta2msg">Si quieres vivir una experiencia de senderismo, cañadismo o rivering</string>
+    <string name="ruta2sub">Si quieres vivir una experiencia de senderismo, cañadismo o rivering, Charco Azul es el lugar indicado. Ven y vive la experiencia de avistamiento de aves y paisajismo en El Primero del Valle.</string>
+
+    <string name="ruta3">Las Pailas del Oso</string>
+    <string name="ruta3msg">Uno de los lugares más visitado de Jamundí es Charco Escondido</string>
+    <string name="ruta3sub">Uno de los lugares más visitado de Jamundí es Charco Escondido, un paraiso natural con una cascada de 2 metros de altura, lugar para clavados de entre 8 a 14 metros de alto y un agua cristalina​.</string>
+
+    <string name="ruta4">Humedal Guarinó</string>
+    <string name="ruta4msg">Con más de 88 especies de aves, el Humedal Guarinó es el lugar perfecto para el avistamiento de aves</string>
+    <string name="ruta4sub">Con más de 88 especies de aves, el Humedal Guarinó es el lugar perfecto para el avistamiento de aves, una de las actividades más apetecidas en el Valle del Cauca. Acércate a este humedal y disfruta con tu familia de lo mejor de la biodiversidad de este territorio étnico.</string>
+
+    <string name="ruta5">Cascada las Gemelas</string>
+    <string name="ruta5msg">Una cascada de 12 metros y una piscina natural rodeada de formaciones rocosas es el paraíso</string>
+    <string name="ruta5sub">Una cascada de 12 metros y una piscina natural rodeada de formaciones rocosas es el paraíso que se puede encontrar en la Cascada Las Gemelas, un espacio donde el sol y la naturaleza son la mejor combinación. Acércate y disfruta de este espacio lleno de magia.</string>
+
+    <string name="ruta6">Cascada las Brisas</string>
+    <string name="ruta6msg">Una cascada de 30 metros de alto, naturaleza y avistamiento de aves</string>
+    <string name="ruta6sub">Una cascada de 30 metros de alto, naturaleza y avistamiento de aves, esta es la combinación perfecta que hace de la Cascada Las Brisas un espacio para que grandes y chicos se acerquen a conectarse con nuestra naturaleza. Conoce más sobre este atractivo natural de El Primero del Valle</string>
+
+    <string name="ruta7">Senderimos</string>
+    <string name="ruta7msg">Para disfrutar de los verdes y azules de nuestros ríos charcos y cascadas</string>
+    <string name="ruta7sub">Para disfrutar de los verdes y azules de nuestros ríos charcos y cascadas deberás atravesar por senderos mágicos que te conectarán con los sonidos de la biodiversidad ¿Estás preparado para vivir esta experiencia? Jamundí es magia natural y te espera con los brazos abiertos para que te reconectes con la vida.</string>
+
+    <string name="ruta8">Ciclomontañismo</string>
+    <string name="ruta8msg">El circuito La Herradura es uno de los más famosos en el municipio que cautiva a los ciclistas profesionales y amateur</string>
+    <string name="ruta8sub">El circuito La Herradura es uno de los más famosos en el municipio que cautiva a los ciclistas profesionales y amateur, sin embargo, Jamundì cuenta con al menos cuatro rutas aptas para practicar ciclismo deportivo y triatlón que te conectan con un atractivo de agua ideal para premiarte por la jornada. ¡Anímate a vivir una experiencia deportiva sin igual a solo 30 minutos</string>
+
+    <string name="ruta9">Canyoing</string>
+    <string name="ruta9msg">Múltiples cascadas componen la oferta de la ruta del agua en el municipio</string>
+    <string name="ruta9sub">Múltiples cascadas componen la oferta de la ruta del agua en el municipio, Las Pailas del Oso y la Cascada Las Brisas, son los lugares ideales para disfrutar del barranquismo en todo su esplendor. ¡Escalar cascadas nunca había sido tan divertido!</string>
+
+    <string name="ruta10">Trail running</string>
+    <string name="ruta10msg">Las montañas de Peón, San Antonio y San Vicente esperan a todos los deportistas y aficionados</string>
+    <string name="ruta10sub">Las montañas de Peón, San Antonio y San Vicente esperan a todos los deportistas y aficionados para conectarlos con una experiencia increíble de caminata y trote sobre los verdes contrastados de las colinas y su vegetación.</string>
+
+    <plurals name="player_count_caption">
+        <item quantity="one">1 Ruta</item>
+        <item quantity="other">%1$d Ruta</item>
+    </plurals>
+    <string name="olympic_caption">Turistica</string>
+
+    <string name="back_button">Back</string>
+</resources>
